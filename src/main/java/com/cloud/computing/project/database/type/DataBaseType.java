@@ -1,8 +1,8 @@
-package com.cloud.computing.project.database;
+package com.cloud.computing.project.database.type;
 
 public enum DataBaseType {
 	ORIENTDB("ORIENTDB"),
-	SQLITE("SQLITE");
+	ORACLE("ORACLE");
 	
     private final String val;       
 

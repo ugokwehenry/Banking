@@ -10,7 +10,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import com.cloud.computing.project.database.DataBaseType;
+import com.cloud.computing.project.database.type.DataBaseType;
 
 public class DbConfig {
 	private static final String XML_TAG_CONFIGURATION = "Configuration";
@@ -61,8 +61,8 @@ public class DbConfig {
 		if( dataBaseType.equalsIgnoreCase( DataBaseType.ORIENTDB.toString() ) ) {
 			return DataBaseType.ORIENTDB;
 		}
-		else if( dataBaseType.equalsIgnoreCase( DataBaseType.SQLITE.toString() ) ) {
-			return DataBaseType.SQLITE;
+		else if( dataBaseType.equalsIgnoreCase( DataBaseType.ORACLE.toString() ) ) {
+			return DataBaseType.ORACLE;
 		}
 		else {
 			throw new  IllegalArgumentException("Not a valid supported dataBase: " + dataBaseType );

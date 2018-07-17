@@ -1,0 +1,99 @@
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getAllUsers
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near the keyword 'USER'.
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getAllUsers
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - java.sql.SQLSyntaxErrorException: ORA-00903: invalid table name
+
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getAllUsers
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getAllUsers
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getAllUsers
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - java.sql.SQLException: Invalid column name
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getAllUsers
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - java.sql.SQLException: Invalid column name
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getAllUsers
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getAllUsers
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getAllUsers
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getAllUsers
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getAllUsers
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getAllUsers
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getAllUsers
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getUser: 2624
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getAllUsers
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getUser: 2624
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - java.sql.SQLSyntaxErrorException: ORA-00903: invalid table name
+
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getAllUsers
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getUser: 2624
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - java.sql.SQLSyntaxErrorException: ORA-00903: invalid table name
+
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - java.sql.SQLSyntaxErrorException: ORA-00903: invalid table name
+
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getUser: 2624
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getUser: 2624
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - java.sql.SQLIntegrityConstraintViolationException: ORA-01400: cannot insert NULL into ("RUBIKON"."USERS"."SYSUSER_ID")
+
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getUser: 2624
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - java.sql.SQLSyntaxErrorException: ORA-01722: invalid number
+
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getUser: 2624
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - java.sql.SQLSyntaxErrorException: ORA-01722: invalid number
+
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getUser: 2624
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - java.sql.SQLException: ORA-12899: value too large for column "RUBIKON"."USERS"."PASSWORD" (actual: 166, maximum: 35)
+
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getUser: 2624
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getUser: 2624
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getAllUsers
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getUser: 2624
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getAllUsers
+DEBUG main com.cloud.computing.project.common.persistence.SqlUserDAO - getUser: 115830
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.customer.persistence.SqlCustomerDAO - getAllCustomers
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.customer.persistence.SqlCustomerDAO - getAllCustomers
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.common.customer.persistence.SqlCustomerDAO - getAllCustomers
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.deposit.account.persistence.SqlDepositAccountDAO - getAllDepositAccounts
+DEBUG main com.cloud.computing.project.database.connection.oracledb.OracleDBConnection - Opened database successfully
+DEBUG main com.cloud.computing.project.loan.account.data.SqlLoanAccountDAO - getAllDepositAccounts
