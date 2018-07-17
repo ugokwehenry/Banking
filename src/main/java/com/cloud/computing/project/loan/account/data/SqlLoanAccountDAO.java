@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
-import com.cloud.computing.project.deposit.account.persistence.DepositAccountDAOFactory;
 import com.cloud.computing.project.exception.UserNotFoundException;
 import com.cloud.computing.project.loan.account.persistence.LoanAccountDAO;
 
@@ -29,7 +28,7 @@ public class SqlLoanAccountDAO implements LoanAccountDAO{
 		List<LoanAccountData> loanAccountList = new ArrayList<LoanAccountData>();
 		
 		try{
-			stmt = connection.prepareStatement("SELECT ACCT_ID, ACCT_NM, ACCT_NO, DISBURSEMENT_LIMIT, START_DT, MATURITY_DT, TERM_CD, TERM_VALUE, CAPITALIZED_EVENT_DUE_DT_OPTN, FINAL_REPAYMENT_DT, CLOSED_DT,PRIMARY_OFFICER_ID FROM LOAN_ACCOUNT ");
+			stmt = connection.prepareStatement("SELECT ACCT_ID, ACCT_NM, ACCT_NO, DISBURSEMENT_LIMIT, START_DT, MATURITY_DT, TERM_CD, TERM_VALUE, CAPITALIZED_EVENT_DUE_DT_OPTN, FINAL_REPAYMENT_DT, CLOSED_DT,PRIMARY_OFFICER_ID FROM LOAN_ACCOUNT WHERE ROWNUM <= 500");
 			rs = stmt.executeQuery();
 			
 			while(rs.next()){
